@@ -1110,7 +1110,7 @@ input, select, textarea {
 
 	#bg {
 		-moz-transform: scale(1.0);
-		-webkit-transform: scale(1.0);
+		-webkit-transform: translateZ(0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
@@ -1153,7 +1153,7 @@ input, select, textarea {
 
 		#bg:after {
 			-moz-transform: scale(1.125);
-			-webkit-transform: scale(1.125);
+			-webkit-transform: translateZ(0);
 			-ms-transform: scale(1.125);
 			transform: scale(1.125);
 			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
@@ -1169,7 +1169,7 @@ input, select, textarea {
 
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
-			-webkit-transform: scale(1.0825);
+			-webkit-transform: translateZ(0);
 			-ms-transform: scale(1.0825);
 			transform: scale(1.0825);
 			-moz-filter: blur(0.2rem);
@@ -1395,7 +1395,7 @@ input, select, textarea {
 
 		body.is-article-visible #header {
 			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
+			-webkit-transform: translateZ(0);
 			-ms-transform: scale(0.95);
 			transform: scale(0.95);
 			-moz-filter: blur(0.1rem);
@@ -1555,7 +1555,7 @@ input, select, textarea {
 
 			#main article.active {
 				-moz-transform: translateY(0);
-				-webkit-transform: translateY(0);
+				-webkit-transform: translateZ(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				opacity: 1;
@@ -1648,7 +1648,7 @@ input, select, textarea {
 
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
-			-webkit-transform: scale(0.95);
+			-webkit-transform: translateZ(0);
 			-ms-transform: scale(0.95);
 			transform: scale(0.95);
 			-moz-filter: blur(0.1rem);
