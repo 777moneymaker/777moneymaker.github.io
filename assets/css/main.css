@@ -1636,6 +1636,7 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
+		transform: translateZ(0);
 	}
 
 		#footer .copyright {
