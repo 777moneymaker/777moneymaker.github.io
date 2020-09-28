@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url(roboto.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*
 	Dimension by HTML5 UP
@@ -1112,7 +1112,7 @@ input, select, textarea {
 		-moz-transform: scale(1.0);
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
-		transform: translateZ(0);
+		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
 		position: fixed;
 		top: 0;
@@ -1155,7 +1155,7 @@ input, select, textarea {
 			-moz-transform: scale(1.125);
 			-webkit-transform: scale(1.125);
 			-ms-transform: scale(1.125);
-			transform: translateZ(0);
+			transform: scale(1.125);
 			-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out;
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
@@ -1171,7 +1171,7 @@ input, select, textarea {
 			-moz-transform: scale(1.0825);
 			-webkit-transform: scale(1.0825);
 			-ms-transform: scale(1.0825);
-			transform: translateZ(0);
+			transform: scale(1.0825);
 			-moz-filter: blur(0.2rem);
 			-webkit-filter: blur(0.2rem);
 			-ms-filter: blur(0.2rem);
@@ -1539,7 +1539,7 @@ input, select, textarea {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
 			-ms-transform: translateY(0.25rem);
-			transform: translateZ(0);
+			transform: translateY(0.25rem);
 			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
 			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
@@ -1557,7 +1557,7 @@ input, select, textarea {
 				-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
-				transform: translateZ(0);
+				transform: translateY(0);
 				opacity: 1;
 			}
 
@@ -1636,7 +1636,6 @@ input, select, textarea {
 		max-width: 100%;
 		margin-top: 2rem;
 		text-align: center;
-		transform: translateZ(0);
 	}
 
 		#footer .copyright {
@@ -1651,7 +1650,7 @@ input, select, textarea {
 			-moz-transform: scale(0.95);
 			-webkit-transform: scale(0.95);
 			-ms-transform: scale(0.95);
-			transform: translateZ(0);
+			transform: scale(0.95);
 			-moz-filter: blur(0.1rem);
 			-webkit-filter: blur(0.1rem);
 			-ms-filter: blur(0.1rem);
